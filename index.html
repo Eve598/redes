@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2 class="pro">-_-_-_-_-_- Projeto de:  _-_-_-_-_-</h2>
+  <h2 class="mat">-_-_-_-_-_- Redes de Computadores e Segurança Da Informação na Nuvem -_-_-_-_-_-</h2>
+
+<img src="img/1.jpg" alt="" class="nhaa">
+<h3 class="parte1">PARTE 1/OS DADOS Q VC DÁ PRO ROBLOX</h3>
+<img src="img/2.jpg" alt="" class="nhaaa">
+<H3 class="parte2">PARTE 2/ PRATICAS DE SEGURANÇA</H3>
+
+  <div class="sidebar">
+    <button onclick="toggleInfo(this)">
+      Dados que o Roblox coleta
+      <div class="info">
+        - Data de nascimento<br>
+        - Nome de usuário<br>
+        - Senha<br>
+        - Gênero (opcional)<br>
+        - E-mail ou celular (opcional)
+      </div>
+    </button>
+
+    <button onclick="toggleInfo(this)">
+      Porque ele pega esses dados
+      <div class="info">
+        - Data de nascimento: filtros de segurança<br>
+        - Nome de usuário: identidade no jogo<br>
+        - Senha: proteger a conta<br>
+        - Gênero: personalização do perfil<br>
+        - E-mail/celular: recuperar conta e segurança extra
+      </div>
+    </button>
+
+    <button onclick="toggleInfo(this)">
+      Quais riscos você corre se tiver um vazamento
+      <div class="info">
+        - Roubo de conta<br>
+        - Golpes e phishing<br>
+        - Exposição da privacidade<br>
+        - Perfis falsos ou assédio
+      </div>
+    </button>
+
+    <button onclick="toggleInfo(this)">
+      Como o Roblox poderia melhorar a segurança
+      <div class="info">
+        - Usar senha forte<br>
+        - Ativar verificação em duas etapas (2FA)<br>
+        - Não compartilhar a conta<br>
+        - Evitar links suspeitos<br>
+        - Manter e-mail/celular atualizados<br>
+        - Sair de dispositivos públicos
+      </div>
+    </button>
+  </div>
+
+
+  <div class="sidebar-right">
+    <button onclick="toggleInfo(this)">
+      Prática 1
+      <div class="info">
+        Ativar autenticação em duas etapas (2FA) em e-mails, redes sociais e bancos.
+      </div>
+    </button>
+
+    <button onclick="toggleInfo(this)">
+      Prática 2
+      <div class="info">
+        Usar VPN confiável ao acessar redes Wi-Fi públicas para proteger seus dados.
+      </div>
+    </button>
+
+    <button onclick="toggleInfo(this)">
+      Prática 3
+      <div class="info">
+        Configurar backup automático criptografado de arquivos importantes na nuvem ou em HD externo.
+      </div>
+    </button>
+  </div>
+
+  <footer>
+    Nome: Evelyn Andrade Sena | Série: 2ºB | Sala: DS <br>
+    Data: 22/09/2025 | Tema: Redes de Computadores e Segurança Da Informação na Nuvem
+  </footer>
+
+  <script>
+    function toggleInfo(btn) {
+        const info = btn.querySelector('.info');
+        if(info.style.display === 'block'){
+            info.style.display = 'none';
+        } else {
+            info.style.display = 'block';
+        }
+    }
+  </script>
+</body>
+</html>
